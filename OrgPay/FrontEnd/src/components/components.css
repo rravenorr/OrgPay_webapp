@@ -1,0 +1,517 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&display=swap");
+@import url("https://fonts.cdnfonts.com/css/neue-helvetica-bq");
+@import url("https://fonts.cdnfonts.com/css/acumin-pro");
+@import url("https://fonts.cdnfonts.com/css/acumin-pro?styles=16574");
+#root {
+  padding: 0;
+  margin: 0;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: "Acumin Pro", sans-serif;
+  overflow-x: hidden;
+}
+.navList {
+  list-style: none;
+  display: flex;
+  font-weight: 700;
+  gap: 3rem;
+  font-size: 1rem;
+  width: 400px;
+  justify-content: right;
+  align-items: center;
+  color: #818182;
+}
+.navCont {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-left: 10%;
+  width: 100%;
+  padding: 10px;
+}
+.sticky {
+  position: fixed;
+  background-color: white;
+  top: 0;
+  left: -2%;
+  padding-right: 10%;
+  box-shadow: 0px 2px 10px rgb(133, 133, 133);
+  z-index: 99;
+  padding: auto;
+}
+.secNav2 {
+  display: flex;
+  gap: 3rem;
+  justify-content: center;
+  align-items: center;
+}
+.secNav2 > button {
+  width: 100px;
+  height: 35px;
+  background-color: transparent;
+  font-size: 0.8rem;
+  font-family: "Acumin Pro", sans-serif;
+  font-weight: 700;
+  color: #596e79;
+  border-color: #718d9c;
+  border: solid 2px;
+  justify-content: center;
+  align-items: center;
+}
+.secNav2 > button > a {
+  color: #818182;
+}
+
+.firstCont,
+.secondCont {
+  margin-top: 8%;
+  width: 97vw;
+  height: 83vh;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-left: 2%;
+}
+.intro {
+  display: flex;
+  flex-direction: column;
+  margin-top: 15%;
+  width: 60%;
+  padding: 7%;
+  height: 40%;
+  background-color: #596e79;
+  font-family: "Neue Helvetica BQ", sans-serif;
+  letter-spacing: 0.03rem;
+}
+.introdeet {
+  font-size: 0.9rem;
+  color: #d6d7d8;
+  font-family: "Neue Helvetica BQ", sans-serif;
+  line-height: 1.3rem;
+  letter-spacing: 0.03rem;
+  font-size: 0.9rem;
+  text-align: left;
+}
+.Fright {
+  background-image: url("/img.jpg");
+  margin-left: -50%;
+  width: 140%;
+  height: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  z-index: -1;
+}
+.line {
+  width: 10%;
+  height: 5px;
+  margin-left: 5%;
+  background-color: #596e79;
+}
+.secondCont {
+  margin-top: 5%;
+  grid-template-columns: 1fr;
+}
+.serv {
+  font-family: "Acumin Pro", sans-serif;
+  display: flex;
+  font-size: 2rem;
+  max-width: 22%;
+  font-weight: 700;
+  text-align: left;
+}
+.servCont {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  gap: 4rem;
+}
+.ourserv {
+  margin-left: 3%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.ourserv > div {
+  margin-left: 3%;
+  display: flex;
+  gap: 1rem;
+}
+
+.ourserv > div > section > p {
+  max-width: 290px;
+  font-size: 0.9rem;
+  font-family: "Acumin Pro", sans-serif;
+  line-height: 1.5rem;
+  color: #818182;
+  text-align: left;
+}
+.ourserv > div > section {
+  font-family: "Acumin Pro", sans-serif;
+  text-align: left;
+}
+.ourserv > div > section > h2 {
+  font-size: 1.7rem;
+}
+.ThirdCont {
+  width: 100vw;
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.ThirdCont > section > section > h2 {
+  margin-left: 10%;
+  max-width: 350px;
+  font-family: "Acumin Pro", sans-serif;
+  text-align: left;
+  font-size: 2rem;
+}
+.leftimg {
+  background-image: url("/proc.jpg");
+  width: 90%;
+  height: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 10px;
+}
+.circleproc {
+  display: flex;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #596e79;
+  align-items: center;
+  justify-content: center;
+  color: #f1f1f1;
+  margin-left: 10%;
+  margin-top: 10%;
+}
+.circleproc > h2 {
+  font-size: 1.2rem;
+}
+.vl {
+  border-left: 2px solid #596e79;
+  height: 90px;
+  margin-left: 55%;
+  margin-top: 40%;
+}
+.bilog {
+  margin-left: 10%;
+  display: flex;
+  gap: 4rem;
+  justify-content: left;
+  text-align: left;
+  margin-top: 3%;
+}
+.bilog > section > p {
+  max-width: 400px;
+  color: #818182;
+  line-height: 1.5rem;
+  font-family: "Acumin Pro", sans-serif;
+}
+.lastDiv {
+  margin-top: 10%;
+  width: 100vw;
+  height: 60vh;
+  grid-template-rows: 1fr 1fr;
+}
+.sub {
+  width: 100vw;
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.footer {
+  margin-top: 5%;
+  width: 100vw;
+  height: 50%;
+  background-color: #596e79;
+}
+.sub > h2 {
+  font-size: 2.2rem;
+  font-family: "Poppins", sans-serif;
+  max-width: 500px;
+  line-height: 3rem;
+  font-weight: 700;
+}
+.sub > p {
+  margin-top: 0%;
+  max-width: 500px;
+  color: #818182;
+  line-height: 1.5rem;
+}
+
+.movcircle {
+  margin: 0 0;
+  overflow: hidden;
+  transform: translateX(-20%);
+  border-radius: 150px;
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(130, 160, 216, 1) 0%,
+    rgba(141, 223, 203, 1) 100%
+  );
+  width: 60vw;
+  height: 100vh;
+}
+.signDiv {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 60%;
+  height: 70vh;
+  align-items: center;
+  background-color: rgb(255, 255, 255);
+  border-radius: 7%;
+  box-shadow: 5px 5px 8px rgb(216, 217, 227);
+  overflow: hidden;
+  margin-top: 5%;
+}
+.signCont {
+  display: flex;
+  width: 90vw;
+  height: 90vh;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+.colorLeft {
+  color: white;
+  background-color: #596e79;
+  margin-top: 50%;
+  margin-left: -90%;
+  border-radius: 50%;
+  width: 200%;
+  height: 200%;
+  transform: translateY(-30%);
+}
+.formInDiv {
+  font-family: "Acumin Pro", sans-serif;
+  display: flex;
+  flex-direction: column;
+  margin-left: 10%;
+  width: 90%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.formInDiv > input,
+select {
+  transition: all ease-in-out 0.2s;
+  color: #656464;
+  border: none;
+  outline: none;
+  padding-left: 40px;
+  font-family: "Acumin Pro", sans-serif;
+}
+.formInDiv > input {
+  font-family: "Acumin Pro", sans-serif;
+  background-color: rgb(245, 247, 251);
+  width: 50%;
+  height: 30px;
+  border-radius: 150px;
+  transition: all 0.3s ease-in-out;
+}
+.formInDiv > input:focus::placeholder {
+  color: white;
+}
+.formInDiv > input:hover {
+  background-color: #6c8795;
+  transition: all 0.3s ease-in-out;
+}
+.formInDiv > input:hover::placeholder {
+  color: white;
+  transition: all 0.3s ease-in-out;
+}
+.formInDiv > input:focus {
+  color: white;
+  background-color: #6c8795;
+  transition: all 0.3s ease-in-out;
+}
+.disable {
+  display: none;
+}
+.phraseDrop,
+.phraseDrop > select {
+  background-color: rgb(245, 247, 251);
+  height: 40px;
+  width: 65%;
+  border-radius: 150px;
+  padding: 0 7%;
+  font-size: 0.7rem;
+}
+.textInColor {
+  position: absolute;
+  z-index: 99999;
+  top: 50%;
+  left: 45%;
+
+  width: 50%;
+  height: 50%;
+}
+.footerCont {
+  padding-top: 1%;
+  justify-content: center;
+  align-items: center;
+  width: 98.7vw;
+  height: 130px;
+  background-color: rgb(255, 255, 255);
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  box-shadow: 0px -5px 10px rgb(227, 228, 239);
+}
+.ftitle {
+  color: rgba(2, 0, 36, 1);
+  font-family: "Acumin Pro", sans-serif;
+  letter-spacing: 0.2rem;
+}
+.colorRight {
+  color: white;
+  background-color: #596e79;
+  margin-top: 50%;
+  margin-left: -10%;
+  border-radius: 50%;
+  width: 200%;
+  height: 200%;
+  transform: translateY(-30%);
+}
+.textInColorRight {
+  position: absolute;
+  z-index: 99999;
+  top: 50%;
+  left: 5%;
+
+  width: 50%;
+  height: 50%;
+}
+formInDiv > input:focus::placeholder {
+  color: white;
+  transition: all 0.3s ease-in-out;
+}
+.logBut {
+  border: none;
+  width: 40%;
+  height: 40px;
+  border-radius: 150px;
+  background-color: white;
+  color: white;
+  text-decoration: none;
+  transition: all 0.3s ease-in-out;
+}
+.logBut > a {
+  text-decoration: none;
+  color: #818182;
+  font-family: "Acumin Pro";
+  font-weight: 700;
+  letter-spacing: 0.05rem;
+  transition: all 0.3s ease-in-out;
+}
+.logBut:hover {
+  border: solid 1px white;
+  background-color: #596e79;
+}
+.logBut:hover > a {
+  color: white;
+}
+.logButton {
+  border: solid 1px #596e79;
+  width: 40%;
+  height: 40px;
+  border-radius: 150px;
+  background-color: #ffffff;
+  color: #596e79;
+  text-decoration: none;
+  letter-spacing: 0.05rem;
+  font-weight: 700;
+  transition: all 0.3s ease-in-out;
+  font-family: "Acumin Pro", sans-serif;
+}
+.logButton:hover {
+  background-color: #596e79;
+  color: white;
+}
+.footer {
+  font-family: "Acumin Pro", sans-serif;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  width: 100%;
+  height: 45%;
+  color: white;
+}
+.fsec {
+  padding: 4%;
+  padding-left: 15%;
+  margin-left: 20%;
+}
+.fsec > h1 {
+  color: #e0dfdf;
+  font-size: 1.5rem;
+  text-align: left;
+}
+.fsec > p {
+  font-size: 0.9rem;
+  color: #cbcaca;
+  text-align: left;
+  max-width: 300px;
+}
+.ssec {
+  padding: 4%;
+  margin-left: -10%;
+}
+.ssec > h1 {
+  color: #e0dfdf;
+  font-size: 1.5rem;
+  text-align: left;
+}
+
+.ssec > ul,
+.ssec > ul > li {
+  text-decoration: none;
+  list-style: none;
+  text-align: left;
+  margin-left: -4.5%;
+  cursor: pointer;
+}
+.listLogo {
+  display: flex;
+  gap: 3rem;
+}
+
+.tsec {
+  padding: 4%;
+  padding-top: 13%;
+  color: #e0dfdf;
+  font-size: 1.2rem;
+  text-align: left;
+  margin-left: -15%;
+}
+.tsec > ul {
+  list-style: none;
+  display: flex;
+  gap: 3rem;
+  margin-left: 20%;
+  cursor: pointer;
+}
+.loginbutton {
+  transition: all 0.3s ease-in-out;
+}
+.signupbutton {
+  transition: all 0.3s ease-in-out;
+}
+.loginbutton:hover {
+  background-color: #596e79;
+  color: white;
+}
+.loginbutton:hover > a {
+  color: white;
+}
+.signupbutton:hover {
+  background-color: #596e79;
+  color: white;
+}
+.signupbutton:hover > a {
+  color: white;
+}

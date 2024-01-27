@@ -1,0 +1,33 @@
+.widget {
+    display: flex;
+    background-color:#596e79;
+    justify-content: center;
+    padding: 30px;
+    box-shadow: 2px 4px 15px rgba(0, 0, 0, 0.18);
+    border-radius: 10px;
+    height: 100px;
+    border: solid white 20px;
+}
+
+.left{
+  display: flex;
+  align-items: center;
+  color: white;
+}
+
+.money{
+    padding: 10px;
+    display: flex;
+    font-size: 6vw;
+    align-items: center;
+    color: white;
+    
+}
+
+.amount{
+    display: flex;
+    padding: 50px;
+    font-size: 9vw;
+    align-items: center;
+    color: white; 
+}

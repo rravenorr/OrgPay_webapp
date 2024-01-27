@@ -1,0 +1,116 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&display=swap");
+@import url("https://fonts.cdnfonts.com/css/neue-helvetica-bq");
+@import url("https://fonts.cdnfonts.com/css/acumin-pro");
+@import url("https://fonts.cdnfonts.com/css/acumin-pro?styles=16574");
+#root {
+  padding: 0;
+  margin: 0;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: "Acumin Pro", sans-serif;
+  overflow-x: hidden;
+}
+.cont {
+  position: absolute;
+  width: 100vw;
+  height: 98vh;
+  background-color: rgb(0, 0, 0, 0.5);
+  z-index: 99;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.modalCont {
+  width: 30%;
+  height: 60%;
+  background-color: white;
+  box-shadow: 0px 3px 15px rgba(11, 11, 11, 0.6);
+  border-radius: 20px;
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+}
+.content {
+  margin: 3%;
+  margin-top: 5%;
+  padding: 3%;
+  margin-left: 10%;
+}
+.content > form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+.content > form > input {
+  font-family: "Acumin Pro", sans-serif;
+  background-color: rgb(245, 247, 251);
+  width: 80%;
+  height: 20px;
+  padding: 2%;
+  border: solid 1px #596e79;
+  border-radius: 150px;
+  transition: all 0.3s ease-in-out;
+}
+.content > form > input:hover {
+  background-color: #596e79;
+  transition: all 0.3s ease-in-out;
+}
+.content > form > input:hover::placeholder {
+  color: white;
+  transition: all 0.3s ease-in-out;
+}
+.content > form > input:focus {
+  color: white;
+  background-color: #596e79;
+  transition: all 0.3s ease-in-out;
+}
+.content > form > input:focus::placeholder {
+  color: white;
+  background-color: #596e79;
+
+  transition: all 0.3s ease-in-out;
+}
+.btn {
+  border: none;
+  height: 40px;
+  margin-left: -10%;
+  width: 50%;
+  border-radius: 150px;
+  background-color: #596e79;
+  border: solid 1px white;
+  color: white;
+  text-decoration: none;
+  transition: all 0.3s ease-in-out;
+}
+.btn:hover {
+  color: #596e79;
+  background-color: white;
+  border: solid 1px #596e79;
+}
+.btnfoot {
+  margin: 3%;
+  display: flex;
+  justify-content: space-between;
+  padding: 6%;
+  margin-top: 2%;
+  padding-left: 9%;
+}
+.header {
+  background-color: #596e79;
+  border-radius: 20px;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+  text-align: left;
+  padding-left: 5%;
+  color: white;
+  font-family: "Acumin Pro", sans-serif;
+}
+.ex {
+  transition: all 0.3s ease-in-out;
+  color: rgb(191, 191, 191);
+}
+.ex:hover {
+  color: white;
+}

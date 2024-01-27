@@ -1,0 +1,136 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&display=swap");
+@import url("https://fonts.cdnfonts.com/css/neue-helvetica-bq");
+@import url("https://fonts.cdnfonts.com/css/acumin-pro");
+@import url("https://fonts.cdnfonts.com/css/acumin-pro?styles=16574");
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,400,700&display=swap");
+#root {
+  padding: 0;
+  margin: 0;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: "Acumin Pro", sans-serif;
+  overflow-x: hidden;
+}
+.maincont {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 1rem;
+}
+.notePage {
+  width: 80vw;
+  height: 98vh;
+  background-color: #eff0f4;
+  border-radius: 20px;
+}
+.first {
+  font-family: "Acumin Pro", sans-serif;
+  text-align: left;
+  padding: 2%;
+  padding-left: 3%;
+}
+.first > h1 {
+  font-weight: 700;
+  font-size: 2.2rem;
+}
+.first > p {
+  font-size: 0.9rem;
+  margin-top: -1.5%;
+  margin-left: 3px;
+  color: #b7b7b7;
+}
+.second {
+  font-family: "Acumin Pro", sans-serif;
+  text-align: left;
+  padding: 2%;
+  padding-left: 3%;
+  display: flex;
+  gap: 2rem;
+}
+.second > button {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5%;
+  gap: 1rem;
+  width: 15%;
+  height: 25vh;
+  border: none;
+  background-color: transparent;
+  background-image: url("data:image/svg+xml,%3csvg width='100%25' height='100%25' xmlns='http://www.w3.org/2000/svg'%3e%3crect width='100%25' height='100%25' fill='none' rx='20' ry='20' stroke='%23333' stroke-width='1' stroke-dasharray='6%2c 14' stroke-dashoffset='0' stroke-linecap='square'/%3e%3c/svg%3e");
+  border-radius: 20px;
+}
+.ta {
+  font-family: "Acumin Pro", sans-serif;
+  background-color: rgb(245, 247, 251);
+  width: 80%;
+  height: 30px;
+  padding: 3%;
+  border: solid 1px #596e79;
+  border-radius: 150px;
+  transition: all 0.3s ease-in-out;
+  resize: none;
+}
+.ta:focus {
+  outline: none;
+}
+.cardscont {
+  font-size: "Acumin Pro", san-serif;
+  width: 30%;
+  height: 280px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 3px 5px 10px #00000033;
+}
+.cards {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  padding: 2rem;
+}
+.Title {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+.Amount {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.edit {
+  border: none;
+  background-color: #596e79;
+  border-radius: 10px;
+  padding: 3%;
+  color: white;
+  width: 50%;
+  transition: all 0.3s ease-in-out;
+}
+.edit:hover {
+  border: 1px solid #596e79;
+  color: black;
+  background-color: white;
+}
+.del {
+  border: none;
+  background-color: #f68175;
+  border-radius: 10px;
+  padding: 3%;
+  color: white;
+  width: 50%;
+  transition: all 0.3s ease-in-out;
+}
+.del:hover {
+  border: 1px solid #f68175;
+  color: black;
+  background-color: white;
+}
+.Amount > section {
+  display: flex;
+  gap: 2rem;
+  width: 100%;
+  margin-top: 2%;
+}

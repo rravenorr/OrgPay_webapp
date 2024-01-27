@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&display=swap");
+@import url("https://fonts.cdnfonts.com/css/neue-helvetica-bq");
+@import url("https://fonts.cdnfonts.com/css/acumin-pro");
+@import url("https://fonts.cdnfonts.com/css/acumin-pro?styles=16574");
+#root {
+  padding: 0;
+  margin: 0;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: "Acumin Pro", sans-serif;
+  overflow-x: hidden;
+}
+table {
+  width: 90vw;
+  text-align: left;
+  padding-left: 10%;
+  background-color: #596e79;
+}
+.aucont {
+  z-index: 7;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+table > thead > tr > th {
+  width: 20%;
+  height: 50px;
+  color: white;
+}
+
+.data {
+  height: 50px;
+  color: white;
+}
+tr {
+  border-bottom: solid 1px white;
+}
+.datacont {
+  display: flex;
+  margin-left: 5%;
+  margin-right: 5%;
+  border: solid 25px #ffffff;
+  border-radius: 10px;
+  box-shadow: 2px 4px 15px rgba(0, 0, 0, 0.18);
+}
+.aubut {
+  border: none;
+  margin-top: -3%;
+  height: 30px;
+  margin-left: -10%;
+  width: 50%;
+  border-radius: 150px;
+  background-color: #596e79;
+  border: solid 1px white;
+  color: white;
+  text-decoration: none;
+  transition: all 0.3s ease-in-out;
+}
+.aubut:hover {
+  color: black;
+  background-color: white;
+}
+
+.homeContainer{
+  flex: 8;
+  background-color: #eff0f4;
+  border-radius: 20px;
+}
+
+
+.headdit{
+  display: flex;
+  color: gray;
+  padding-left: 60px;
+  padding-top: 20px;
+  margin: 30px;
+}

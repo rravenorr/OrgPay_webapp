@@ -1,0 +1,17 @@
+.home{
+    display: flex;
+    background: white;
+    flex-direction: row  ;
+    gap: 1rem;
+}
+
+.homeContainer{
+    min-width: 110%;
+
+}
+
+.pangaln{
+    display: flex;
+    padding-left: 30px;
+    padding-top: 10px;
+}
